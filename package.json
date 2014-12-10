@@ -1,0 +1,26 @@
+{
+  "name": "wp-to-grav",
+  "version": "0.0.1",
+  "description": "A simple tool to migrate WP blogs to Grav",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DezminSites/wp-to-grav.git"
+  },
+  "keywords": [
+    "wordpress",
+    "grav"
+  ],
+  "author": "Robson Loschi <contato@dezmin.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DezminSites/wp-to-grav/issues"
+  }
+  "dependencies": {
+    "xml-parser": "~1.2.0",
+    "xml2js": "~0.4.4",
+    "to-markdown": "0.0.2",
+    "fs-extra": "~0.12.0",
+    "moment": "~2.8.4"
+  }
+}
